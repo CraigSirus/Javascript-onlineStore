@@ -1,0 +1,161 @@
+.container-fluid {
+	height: auto;
+	width: 100%;
+}
+
+.heading {
+	font-family: 'Orbitron', sans-serif;
+	color: black;
+	width: 100%;
+	font-size: 35px !important;
+}
+
+/*  Navigation bar  */
+
+nav {
+	display: inline-block;
+}
+
+ul {
+	font-family: 'Orbitron', sans-serif;
+	display: inline-block;
+	margin: 20px;
+	list-style-type: none;
+	padding: 20px;
+	transition: 1s;
+}
+
+li:hover {
+	transform: translateX(5px) scale(1.1);
+	background-color: orangered;
+	color: white;
+	cursor: crosshair;
+}
+
+/*  User tab  */
+
+.userTab {
+	font-family: 'Orbitron', sans-serif;
+	padding: 10px;
+	position: fixed;
+	right:0;
+	display: inline-block;
+	transition: 1s;
+}
+
+.userTab:hover {
+	transform: scale(1.1);
+	background-color: orangered;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.userTabBtn {
+	paddin-left:10px;
+	padding-right: 20px;
+}
+
+
+h1 {
+	float: left;
+	font-size: 16px !important;
+	font-family: 'Orbitron', sans-serif;
+	padding: 20px;
+	color: black;
+}
+
+.col-sm-3 {
+	background-color: white;
+}
+
+/*  Paragraph  */
+
+p {
+	font-size: 12px !important;
+	font-family: 'Orbitron', sans-serif;
+	color: grey;
+	padding: 20px;
+}
+
+p:hover {
+	cursor: default;
+}
+
+/*  Image properties  */
+
+img {
+	left: 50px;
+	transition: 1s;
+}
+
+img:hover {
+	cursor: zoom-in;
+	opacity: 0.8;
+	transform: scale(1.1);
+}
+
+/*  Link styles  */
+
+a:active {
+	color: white;
+}
+
+a {
+	color: black !important;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white !important;
+	text-decoration: none !important;
+}
+
+/*  Span element  */
+
+span {
+	color: orangered;
+}
+
+/*  Button  */
+
+button {
+	border-radius: 50px;
+	transition:1s;
+	border: 2px solid white;
+}
+
+button:hover {
+	opacity: 1;
+	background-color: orangered;
+	color: white;
+	transform: rotateY(35deg);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.resize {
+	width: 250px;
+	height: 250px;
+}
+
+
+.price {
+	font-size: 15px !important;
+}
+
+.title-wrap {
+	transition: 2s;
+	width: 100%;
+}
+
+/*  Footer styles  */
+
+footer {
+	font-size: 12px !important;
+	font-family: 'Orbitron', sans-serif;
+	padding: 10px;
+	text-align: center;
+	margin: 20px 50px 20px 50px;
+}
+
+footer:hover {
+	cursor: default;
+}
